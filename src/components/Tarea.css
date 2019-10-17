@@ -1,0 +1,22 @@
+.Tarea {
+    font-size: 1.3em;
+    background: white;
+    border-radius: 10px;
+    margin: 0.5em;
+    padding: 1em;
+    width: 180px;
+    border: solid 5px white;
+}
+
+.Tarea button {
+    margin-right: 5px;
+    border-radius: 7px;
+    background: #3c3535;
+    color: white;
+}
+
+.Tarea.completed {
+    background: tomato;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
